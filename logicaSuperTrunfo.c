@@ -24,13 +24,13 @@ int main() {
     densidade2 = populacao2 / area2;
 
     printf("resultado do calculo da densidade populacional:\n");
-    printf("carta 1 = %d/%f=%f - carta 2 = %d/%f=%f\n", &populacao1, &area1, &densidade1, &populacao2, &area2, &densidade2);
+    printf("carta 1 = %d/%f=%f - carta 2 = %d/%f=%f\n", populacao1, area1, densidade1, populacao2, area2, densidade2);
 
     if(densidade1 < densidade2){
-        printf("a carta 1 possui menor densidade populacional, logo é a vencedora!\n");
+        printf("a carta 1 (%s) possui menor densidade populacional, logo é a vencedora!\n", carta1);
     }
     else{
-        printf("a carta 2 possui menor densidade populacional, logo é a vencedora!\n");
+        printf("a carta 2 (%s) possui menor densidade populacional, logo é a vencedora!\n", carta2);
         }
 
 
